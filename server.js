@@ -6,17 +6,9 @@ require('dotenv').config();
 
 const { connectDB } = require('./src/db/connectDB');
 
-
-
-
-
-
 const server = http.createServer(app);
 
 const PORT = process.env.PORT || 6000;
-
-
-
 
 // starting server function
 
